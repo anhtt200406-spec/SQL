@@ -15,6 +15,6 @@ WHERE
     job_location = 'Anywhere' AND
     salary_year_avg IS NOT NULL
 ORDER BY
-    salary_hour_avg DESC
+    salary_year_avg DESC
 LIMIT
     10;
